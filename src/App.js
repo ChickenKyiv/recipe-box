@@ -1,33 +1,59 @@
 import React, { Component } from 'react';
-// import {
-//   Button, Modal, ModalHeader, ModalBody,
-//   ModalFooter, Form, FormGroup, Label, Input
-// } from 'reactstrap';
+import EditRecipeModal      from './components/EditRecipeModal/EditRecipeModal'
+import AddRecipeModal      from './components/AddRecipeModal/AddRecipeModal'
+import {
+  Button, Modal, ModalHeader, ModalBody,
+  ModalFooter, Form, FormGroup, Label, Input
+} from 'reactstrap';
 // import fontawesome     from '@fortawesome/fontawesome'
 // import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 // import faCoffee        from '@fortawesome/fontawesome-free-solid/faCoffee'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 // fontawesome.library.add(faCoffee);
 // <FontAwesomeIcon icon="coffee" />
+
+
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      recipes: [],
+      ingredients: [],
+    }
+  }
+
+  componentDidMount() {
+    let currentRecipes = Object.keys(window.localStorage);
+    let currentIngredients = Object.values(window.localStorage);
+    this.setState({
+      recipes: currentRecipes,
+      ingredients: currentIngredients,
+    })
+    console.log(this.state.recipes);
+  }
 
   render() {
+    const { recipes } = this.state;
+    const { ingredients } = this.state;
+    let i=0;
     return (
-      <div className="App">
-        <header className="App-header">
-          {/*<FontAwesomeIcon icon="coffee" />*/}
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="App container-fluid">
+        <div className="container" id="recipe-box">
+          {recipes.map(recipe =>
+            <div className="recipe container align-content-center" key={recipe}>
+              <h5 className="recipeName">{recipe}</h5>
+              <p className="recipeIngredients">{ingredients[recipes.indexOf(recipe)]}</p>
+              <div className="editButton">
+                <EditRecipeModal className={recipe} i={i++} recipe={recipe} ingredients={ingredients[recipes.indexOf(recipe)]}/>
+              </div>
+            </div>)}
+        </div>
+        <AddRecipeModal />
       </div>
     );
   }
-
-
 }
 
 export default App;

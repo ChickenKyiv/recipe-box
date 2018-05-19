@@ -3,6 +3,8 @@ import {
   Button, Modal, ModalHeader, ModalBody,
   ModalFooter, Form, FormGroup, Label, Input
 } from 'reactstrap';
+import fontawesome     from '@fortawesome/fontawesome'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 
 class EditRecipeModal extends Component {
     constructor(props) {
@@ -41,7 +43,9 @@ class EditRecipeModal extends Component {
   render() {
     return (
       <div>
-        <Button onClick={this.toggle} color="info"><FontAwesome name="cog"></FontAwesome></Button>
+        <Button onClick={this.toggle} color="info">
+        <FontAwesomeIcon name="cog"></FontAwesomeIcon>
+        </Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className="editModal">
           <Form>
           <ModalHeader id={this.props.recipe} toggle={this.toggle}>Edit {this.props.recipe}</ModalHeader>
@@ -61,3 +65,5 @@ class EditRecipeModal extends Component {
     )
   }
 }
+
+export default EditRecipeModal
