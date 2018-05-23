@@ -33,9 +33,9 @@ Adding a meal to your Google Calendar:
 
 * If you'd like to add a meal to your Google Calendar, simply follow the steps listed in `Plan a meal`, but after you've selected a time for your meal, select `Add to Google Calendar` instead of `Lovely!` and the meal will be added to your planEats and Google Calendars
 
-To view, edit or remove a planned meal from your planEats calendar:
+To view, edit or remove a planned meal from your plan meal calendar:
 
-* To view a planned meal on your planEats calendar, click the meal on the calendar and the name of the meal and its time will display in a popup
+* To view a planned meal on your plan meal calendar, click the meal on the calendar and the name of the meal and its time will display in a popup
 * To remove that meal from your calendar, click on the meal and select `Delete Meal` and it will no longer display on your calendar
 * To edit a planned meal, click on the meal and select `Edit Meal` then select a different meal and/or time and the updated meal plan will appear on your calendar
 
