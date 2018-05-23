@@ -9,9 +9,9 @@ import React, { Component } from 'react'
 import EditRecipeModal     from './components/EditRecipeModal/EditRecipeModal'
 import AddRecipeModal      from './components/AddRecipeModal/AddRecipeModal'
 
-import NavBar from './components/NavBar/NavBar'
-import RCard  from './components/RCard/RCard'
-import Example  from './components/Jimbotron/Jimbotron'
+import NavBar  from './components/NavBar/NavBar'
+import RCard   from './components/RCard/RCard'
+import Example from './components/Jimbotron/Jimbotron'
 // import fontawesome     from '@fortawesome/fontawesome'
 // import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 // import faCoffee        from '@fortawesome/fontawesome-free-solid/faCoffee'
@@ -48,9 +48,9 @@ class App extends Component {
 
     return (
       <div className="App container-fluid">
-        <NavBar />
+        {/*<NavBar />
         <hr />
-        <Example />
+        <Example /> */}
         <div className="container" id="recipe-box">
           {recipes.map(recipe =>
             <div className="recipe container align-content-center" key={recipe}>
