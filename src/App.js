@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 // import Helmet from 'react-helmet'
 
-import {
-  Button, Modal, ModalHeader, ModalBody,
-  ModalFooter, Form, FormGroup, Label, Input
-} from 'reactstrap'
+// import {
+//   Button, Modal, ModalHeader, ModalBody,
+//   ModalFooter, Form, FormGroup, Label, Input
+// } from 'reactstrap'
 
 import EditRecipeModal     from './components/EditRecipeModal/EditRecipeModal'
 import AddRecipeModal      from './components/AddRecipeModal/AddRecipeModal'
 
-import NavBar from './components/NavBar/NavBar'
-import RCard  from './components/RCard/RCard'
+import NavBar  from './components/NavBar/NavBar'
+import RCard   from './components/RCard/RCard'
+import Example from './components/Jimbotron/Jimbotron'
 // import fontawesome     from '@fortawesome/fontawesome'
 // import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 // import faCoffee        from '@fortawesome/fontawesome-free-solid/faCoffee'
@@ -47,9 +48,9 @@ class App extends Component {
 
     return (
       <div className="App container-fluid">
-        <NavBar />
+        {/*<NavBar />
         <hr />
-
+        <Example /> */}
         <div className="container" id="recipe-box">
           {recipes.map(recipe =>
             <div className="recipe container align-content-center" key={recipe}>
@@ -67,7 +68,7 @@ class App extends Component {
             </div>)}
         </div>
         <AddRecipeModal />
-        
+
         <div className="container">
           <div className="row">
             <div className="col-md-4">
