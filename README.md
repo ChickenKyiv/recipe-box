@@ -1,6 +1,49 @@
 # recipe-box
 
 
+List of components
+
+Directions
+FreeRecipes
+GroceryList
+GroceryListDepartment
+GroceryListSettings
+Ingredients
+Intro
+Login
+Menu
+Recipe
+RecipeCalendar
+Router
+Signup
+Tabs
+WeeklyMenu
+menu.png
+
+---------------
+
+Recipe Card
+ -- stuff inside
+
+Weekly Menu
+ -- List of short Recipe Cards
+
+ Main components
+  Recipe
+  Grocery List
+  WeeklyMenu
+
+ Sub components
+  Recipe Ingredients
+  GLDepartments
+  (Recipe titles + link)
+  (Ingredients from Recipe)
+  (Ingredients from Department)
+
+  Navigation
+ Screens
+
+
 [Screens for app that doing a same thing](https://github.com/GroceriStar/creative/blob/master/app%20screens%20at%20one%20place.md)
 
 ![DB Schema](https://github.com/ChickenKyiv/creative/blob/master/Recipe-ChickenKyiv-Release%231%20Schema%20%20%20SqlDBM.png "Logo Title Text 1")
