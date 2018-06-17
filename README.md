@@ -1,6 +1,16 @@
 # recipe-box
 
 
+
+Basic functionality for recipe box
+Login
+Add FreeRecipes
+Upload recipes
+Drag recipes into different calendar days
+Publish your weekly Menu online
+
+---
+
 List of components
 
 Directions
