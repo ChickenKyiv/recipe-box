@@ -1,49 +1,49 @@
 # recipe-box
 
-
+we'll making a frontend part for our server. we're completed release #1 phase(server api), so it'll be more about making calls to the server and displaying a data.
 
 Basic functionality for recipe box
-Login
-Add FreeRecipes
-Upload recipes
-Drag recipes into different calendar days
-Publish your weekly Menu online
+- Login
+- Add FreeRecipes
+- Upload recipes
+- Drag recipes into different calendar days
+- Publish your weekly Menu online
 
 ---
 
 List of components
 
-Directions
-FreeRecipes
-GroceryList
-GroceryListDepartment
-GroceryListSettings
-Ingredients
-Intro
-Login
-Menu
-Recipe
-RecipeCalendar
-Router
-Signup
-Tabs
-WeeklyMenu
-menu.png
+- Directions
+- FreeRecipes
+- GroceryList
+- GroceryListDepartment
+- GroceryListSettings
+- Ingredients
+- Intro
+- Login
+- Menu
+- Recipe
+- RecipeCalendar
+- Router
+- Signup
+- Tabs
+= WeeklyMenu
+- menu.png
 
 ---------------
 
-Recipe Card
+#### Recipe Card
  -- stuff inside
 
-Weekly Menu
+#### Weekly Menu
  -- List of short Recipe Cards
 
- Main components
+ #### Main components
   Recipe
   Grocery List
   WeeklyMenu
 
- Sub components
+ #### Sub components
   Recipe Ingredients
   GLDepartments
   (Recipe titles + link)
