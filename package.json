@@ -6,7 +6,7 @@
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/react-fontawesome": "0.0.20",
     "bootstrap": "^4.1.1",
-    "raven-js": "^3.26.2",
+    "raven-js": "^3.26.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
