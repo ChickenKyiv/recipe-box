@@ -9,6 +9,9 @@ Basic functionality for recipe box
 - Drag recipes into different calendar days
 - Publish your weekly Menu online
 
+
+[List of Releases](https://chickenkyiv.gitbook.io/documentation/recipebox-releases-plan)
+
 ---
 
 List of components
