@@ -5,6 +5,7 @@
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/react-fontawesome": "0.1.0",
+    "@groceristar/groceristar-fetch": "^1.1.9",
     "bootstrap": "^4.1.2",
     "raven-js": "^3.26.4",
     "react": "^16.4.1",
