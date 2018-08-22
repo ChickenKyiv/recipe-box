@@ -5,6 +5,8 @@ import CardHeader from 'recipe-components/CardHeader';
 import CardBody   from 'recipe-components/CardBody';
 import Heading    from 'recipe-components/Heading';
 
+import data from '@groceristar/groceristar-fetch/chickenkyiv';
+
 /** Card with CardHeader and CardBody */
 export default class List extends React.Component {
   constructor(props){
@@ -14,6 +16,11 @@ export default class List extends React.Component {
     }
   }
   render() {
+    console.log(data.getIngredients3());
+    console.log(data.getMenu());
+    console.log(data.getRecipe());
+    console.log(data.getNutritions1());
+    console.log(data.getNutritions2());
     return (
       <Card>
         <CardHeader>
