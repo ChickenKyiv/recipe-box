@@ -6,21 +6,18 @@ import React, { Component } from 'react'
 //   ModalFooter, Form, FormGroup, Label, Input
 // } from 'reactstrap'
 
-import EditRecipeModal     from './components/EditRecipeModal/EditRecipeModal'
-import AddRecipeModal      from './components/AddRecipeModal/AddRecipeModal'
+import EditRecipeModal from './components/EditRecipeModal/EditRecipeModal'
+import AddRecipeModal  from './components/AddRecipeModal/AddRecipeModal'
 
 import NavBar  from './components/NavBar/NavBar'
 import RCard   from './components/RCard/RCard'
 import Example from './components/Jimbotron/Jimbotron'
-// import fontawesome     from '@fortawesome/fontawesome'
-// import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-// import faCoffee        from '@fortawesome/fontawesome-free-solid/faCoffee'
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-// fontawesome.library.add(faCoffee);
-// <FontAwesomeIcon icon="coffee" />
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
 
+library.add(faEnvelope, faKey);
 
 class App extends Component {
   constructor() {
