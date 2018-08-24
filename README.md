@@ -1,16 +1,17 @@
 # recipe-box
 
-we'll making a frontend part for our server. we're completed release #1 phase(server api), so it'll be more about making calls to the server and displaying a data.
+We're making a frontend part for our server. 
+We're completed release #1 phase(server api), so it'll be more about making calls to the server and displaying a data.
 
 Basic functionality for recipe box
 - Login
 - Add FreeRecipes
-- Upload recipes
+- Upload Recipes
 - Drag recipes into different calendar days
 - Publish your weekly Menu online
 
 
-[List of Releases](https://chickenkyiv.gitbook.io/documentation/recipebox-releases-plan)
+[List of Releases](https://chickenkyiv.github.io/documentation/docs/recipebox-releases-plan/recipebox-releases-plan.html)
 
 ---
 
@@ -48,7 +49,7 @@ List of components
 
  #### Sub components
   Recipe Ingredients
-  GLDepartments
+  GroceryListDepartments
   (Recipe titles + link)
   (Ingredients from Recipe)
   (Ingredients from Department)
