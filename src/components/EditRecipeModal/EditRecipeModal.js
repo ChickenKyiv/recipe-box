@@ -18,6 +18,8 @@ class EditRecipeModal extends Component {
     this.toggle = this.toggle.bind(this);
     this.update = this.update.bind(this);
     this.delete = this.update.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleReset = this.handleReset.bind(this);
   }
 
   toggle() {
@@ -40,6 +42,15 @@ class EditRecipeModal extends Component {
     localStorage.removeItem(this.props.recipe);*/
   }
 
+  handleSubmit(e){
+    localStorage.setItem(this.props.recipe,
+      document.getElementById(this.props.i).value);
+  }
+
+  handleReset(e){
+    localStorage.removeItem(this.props.recipe);
+  }
+
   render() {
     return (
       <div>
@@ -56,8 +67,8 @@ class EditRecipeModal extends Component {
             </FormGroup>
           </ModalBody>
           <ModalFooter>
-            <Button type="submit" color="success" onClick={() => {localStorage.setItem(this.props.recipe, document.getElementById(this.props.i).value)}}>Save</Button>{' '}
-            <Button type="submit" color="danger" onClick={() => {localStorage.removeItem(this.props.recipe)}}>Delete</Button>
+            <Button type="submit" color="success" onSubmit={this.handleSubmit}>Save</Button>{' '}
+            <Button type="submit" color="danger" onClick={this.handleReset}>Delete</Button>
           </ModalFooter>
           </Form>
         </Modal>
