@@ -4,11 +4,16 @@ import { Card, CardImg, CardText, CardBody,
 } from 'reactstrap'
 import PropTypes from 'prop-types';
 
-import RecipeCard from './RecipeCard';
+// import RecipeCard from './RecipeCard';
+import data from '@groceristar/groceristar-fetch/chickenKyiv';
+import _ from 'lodash';
 
 const RecipeList = ({ recipes }) => (
   <Card.Group itemsPerRow={5}>
-    {recipes.map(recipe => RecipeCard(recipe))}
+    {data.getRecipe().forEach((item) => {
+        console.log(item)
+      }),
+      recipes.map(recipe => RecipeCard(recipe))}
   </Card.Group>
 );
 
