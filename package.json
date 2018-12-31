@@ -17,7 +17,7 @@
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
     "react-scripts": "2.1.2",
-    "reactstrap": "^6.5.0"
+    "reactstrap": "^7.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
