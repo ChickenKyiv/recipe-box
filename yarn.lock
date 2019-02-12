@@ -973,12 +973,13 @@
     humps "^2.0.1"
     prop-types "^15.5.10"
 
-"@groceristar/groceristar-fetch@^1.1.48":
-  version "1.1.48"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.48.tgz#f533f1ff92f276c0022984650510f70c0ab67688"
-  integrity sha512-Gye6wJRQj6SFZF11GxS289cUK2fhLxXJGEuLT9+FjYX84FJqaHolkQMXZ1kj5EjwyhFBTKYNXuESBtKdd0p/EQ==
+"@groceristar/groceristar-fetch@^1.1.61":
+  version "1.1.61"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.61.tgz#5c175bf8ebdb078028865f5f844451e6323ae190"
+  integrity sha512-NWqlxujQk4rYK2hySkZ9zAvDR2wp/T2rfkuFOvtjY+hdxlIIdEfqUXLUlCZLJlG+e1lrhdtq1Bkvu7Dlz1GbGg==
   dependencies:
-    fs "0.0.1-security"
+    dayjs "^1.8.0"
+    fs "0.0.2"
     lodash "^4.17.10"
     underscore "^1.9.1"
     uuid "3.3.2"
@@ -3039,6 +3040,11 @@ date-now@^0.1.4:
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
   integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
 
+dayjs@^1.8.0:
+  version "1.8.5"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.5.tgz#0b066770f89a20022218544989f3d23e5e8db29a"
+  integrity sha512-jo5sEFdsT43RqXxoqQVEuD7XL6iSIRxcjTgheJdlV0EHKObKP3pb9JcJEv/KStVMy25ABNQrFnplKcCit05vOA==
+
 debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.6, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -4446,10 +4452,10 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-fs@0.0.1-security:
-  version "0.0.1-security"
-  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
-  integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+fs@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.2.tgz#e1f244ef3933c1b2a64bd4799136060d0f5914f8"
+  integrity sha1-4fJE7zkzwbKmS9R5kTYGDQ9ZFPg=
 
 fsevents@1.2.4, fsevents@^1.2.2, fsevents@^1.2.3:
   version "1.2.4"
