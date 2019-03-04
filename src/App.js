@@ -6,8 +6,10 @@ import React, { Component } from 'react'
 //   ModalFooter, Form, FormGroup, Label, Input
 // } from 'reactstrap'
 
-import EditRecipeModal from './components/EditRecipeModal/EditRecipeModal'
-import AddRecipeModal  from './components/AddRecipeModal/AddRecipeModal'
+import { EditRecipeModal, AddRecipeModal } from '@groceristar/meal-form-component'
+
+// import EditRecipeModal from './components/EditRecipeModal/EditRecipeModal'
+// import AddRecipeModal  from './components/AddRecipeModal/AddRecipeModal'
 
 import NavBar  from './components/NavBar/NavBar'
 import RCard   from './components/RCard/RCard'
