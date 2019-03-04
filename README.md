@@ -1,6 +1,6 @@
 # recipe-box
 
-We're making a frontend part for our server. 
+We're making a frontend part for our server.
 We're completed release #1 phase(server api), so it'll be more about making calls to the server and displaying a data.
 
 Basic functionality for recipe box
@@ -12,6 +12,17 @@ Basic functionality for recipe box
 
 
 [List of Releases](https://chickenkyiv.github.io/documentation/docs/recipebox-releases-plan/recipebox-releases-plan.html)
+
+http://forwardfooding.com/contact
+https://angel.co/crowdfooding-co-1
+
+
+"eslint": "^5.15.0",
+"eslint-config-airbnb": "^17.1.0",
+"eslint-plugin-import": "^2.14.0",
+"eslint-plugin-jsx-a11y": "^6.1.2",
+"eslint-plugin-react": "^7.12.0",
+
 
 ---
 
