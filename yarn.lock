@@ -1159,7 +1159,7 @@
     humps "^2.0.1"
     prop-types "^15.5.10"
 
-"@groceristar/groceristar-fetch@^1.2.13", "@groceristar/groceristar-fetch@^1.2.8":
+"@groceristar/groceristar-fetch@^1.2.8":
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.13.tgz#5ecc4410868daae09911ccbb52619a67f6a5cfc6"
   integrity sha512-QBHdDWn+Jnq4c3/l3OwdX+SvUsAKlB12CgLUN6k0FxinZZzPzuuR8Npo6J2mpODqwfTeuc9R6uly6y9SUpw/dQ==
@@ -1170,6 +1170,18 @@
     lodash "^4.17.10"
     underscore "^1.9.1"
     uuid "3.3.2"
+
+"@groceristar/groceristar-fetch@^2.1.8":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.8.tgz#937f0054c5db354b5a0f675c2b608380e87aee7d"
+  integrity sha512-Yti6Ick6C7O+ceTPtM3GReD+rKqrjYMALMgzU5tRADxmAyMJ/Hfu4LskLiXPTfQ42cmcWwoZpWPDU+vulLBBKw==
+  dependencies:
+    "@groceristar/sd-wrapper" "^3.0.0"
+    dayjs "^1.8.12"
+    fs "0.0.2"
+    lodash "^4.17.10"
+    underscore "^1.9.1"
+    uuid "^3.3.2"
 
 "@groceristar/meal-form-component@^1.0.5":
   version "1.0.5"
@@ -1193,6 +1205,14 @@
   integrity sha512-TpWbb5uFdyaYy56rOYEGrzHGY8Mm58jAYUaJzfeEHSo7H3+MGCXh6iP6r9pJMe/BXjwqct6BsEPqQFetk3w6xg==
   dependencies:
     fs "^0.0.1-security"
+    path "^0.12.7"
+    uuid "^3.3.2"
+
+"@groceristar/sd-wrapper@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-3.0.0.tgz#e75c14a2aca98783898626399058895a815513a0"
+  integrity sha512-MCvr1WLkILp5IWuH8jSq9nE4XBds3Y56cZgjZoKrEbRuYL6puxFcaYm2YP6ShoR3x8Y7FrIZWEPvzJ4Y1lRt7w==
+  dependencies:
     path "^0.12.7"
     uuid "^3.3.2"
 
@@ -3618,10 +3638,10 @@ date-now@^0.1.4:
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
   integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
 
-dayjs@^1.8.0:
-  version "1.8.8"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.8.tgz#81c81a8bb2488ef859f6c9bead9b62d649072bfd"
-  integrity sha512-qBY3kVAVJMxzS4e7DAwZZ/SSiO/DBXbvc/qqbyf1FbsZrxBq81QPdUEWhiPu8Fragf5RfHsLwtH8kCGwKL4qLQ==
+dayjs@^1.8.0, dayjs@^1.8.12:
+  version "1.8.12"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.12.tgz#f9610fb9b115aa2fe2a07e742c130df418cee76a"
+  integrity sha512-7keChCzzjU68sYJpk7kEI1Q9qbJyscyiW0STwEhqDFt+2js9pA/BSzmYE4PRxcMMoUMxNeY0TEMZHqV/JBR4OA==
 
 debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
