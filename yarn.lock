@@ -1159,7 +1159,19 @@
     humps "^2.0.1"
     prop-types "^15.5.10"
 
-"@groceristar/groceristar-fetch@1.2.13", "@groceristar/groceristar-fetch@^1.2.8":
+"@groceristar/groceristar-fetch@1.2.19":
+  version "1.2.19"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.19.tgz#db59d45c58b38302cb40b75490f465cb24ffd0a2"
+  integrity sha512-0WOhAfA7C3nuVbQXeTm8H6zWKsivyOk7pBJew5hddWyx+kbQZvBEe4zZ5PkSvZFI0pYAusPH++RDzi84kCM18g==
+  dependencies:
+    "@groceristar/sd-wrapper" "^1.0.20"
+    dayjs "^1.8.0"
+    fs "0.0.2"
+    lodash "^4.17.10"
+    underscore "^1.9.1"
+    uuid "3.3.2"
+
+"@groceristar/groceristar-fetch@^1.2.8":
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.13.tgz#5ecc4410868daae09911ccbb52619a67f6a5cfc6"
   integrity sha512-QBHdDWn+Jnq4c3/l3OwdX+SvUsAKlB12CgLUN6k0FxinZZzPzuuR8Npo6J2mpODqwfTeuc9R6uly6y9SUpw/dQ==
@@ -1193,6 +1205,14 @@
   integrity sha512-TpWbb5uFdyaYy56rOYEGrzHGY8Mm58jAYUaJzfeEHSo7H3+MGCXh6iP6r9pJMe/BXjwqct6BsEPqQFetk3w6xg==
   dependencies:
     fs "^0.0.1-security"
+    path "^0.12.7"
+    uuid "^3.3.2"
+
+"@groceristar/sd-wrapper@^1.0.20":
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-1.0.20.tgz#2948e2983a1a05df971fc0ad45663e5b386d45f2"
+  integrity sha512-WP9WmSNHTuhrXsetIKYrS5dA5oXrb1ORbJrtB8U1sLzUv3MRYd7a8y8GvsAQqdNPY1cUc7Tk1cQwfkjqNqGjYA==
+  dependencies:
     path "^0.12.7"
     uuid "^3.3.2"
 
