@@ -1479,15 +1479,16 @@
     humps "^2.0.1"
     prop-types "^15.5.10"
 
-"@groceristar/groceristar-fetch@2.1.11":
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.11.tgz#f0b92c6b5c067734b3c576c794900b8deca7e2ff"
-  integrity sha512-VVEkZTaytRPVjCb14pwBgcmEVOjwZwJxOTHrQY3g8yOF+bGg54vXCRkmVjoI3jUbvHuH+QFgziY2zzxwojJc2A==
+"@groceristar/groceristar-fetch@2.1.12":
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.12.tgz#0de465485752ee4f1b0444393186f6b84163b2dc"
+  integrity sha512-7oDBkSH1qFg4CdUhYUH2iwg5OP9CMf58hcpxZQ4X9j3C0F9plR4cUIpaZsTzRmIWrouvhG54ICJnik7KFH3BPQ==
   dependencies:
-    "@groceristar/sd-wrapper" "^3.0.0"
+    "@groceristar/sd-wrapper" "^4.0.0"
     dayjs "^1.8.12"
     fs "0.0.2"
     lodash "^4.17.10"
+    raven-js "^3.27.1"
     underscore "^1.9.1"
     uuid "^3.3.2"
 
@@ -1528,10 +1529,10 @@
     path "^0.12.7"
     uuid "^3.3.2"
 
-"@groceristar/sd-wrapper@^3.0.0":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-3.0.3.tgz#3339cb18658abef939f97bef71a93bb35f578845"
-  integrity sha512-rZpYLODGXXREouy8EKTLih9hP+5nbXDxhXYGULICq8ATUGRiftuWGiFuVldfC+8gexxvsyFHF6/Djyhht7vJhg==
+"@groceristar/sd-wrapper@^4.0.0":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-4.0.1.tgz#62b81af0b7fe88bbcc8368fd07144fed8ea35b4e"
+  integrity sha512-WlnJ/KePghD3BcE7pgPWbgczmwZMcWSdiyhz6r9K9JbjCtC6zXscM0yERX/k08h75ffxhD4/fCK49dOJkXYy3Q==
   dependencies:
     dayjs "^1.8.13"
     lodash "^4.17.11"
@@ -9806,7 +9807,7 @@ range-parser@^1.0.3, range-parser@~1.2.0:
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
   integrity sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4=
 
-raven-js@3.27.1:
+raven-js@3.27.1, raven-js@^3.27.1:
   version "3.27.1"
   resolved "https://registry.yarnpkg.com/raven-js/-/raven-js-3.27.1.tgz#e187a12982061908ccbf935af0640c9043d7d666"
   integrity sha512-r/9CwSbaGfBFjo4hGR45DAmrukUKkQ4HdMu80PlVLDY1t8f9b4aaZzTsFegaafu7EGhEYougWDJ9/IcTdYdLXQ==
