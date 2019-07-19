@@ -9,7 +9,7 @@
     "@fortawesome/fontawesome-svg-core": "1.2.19",
     "@fortawesome/free-solid-svg-icons": "5.9.0",
     "@fortawesome/react-fontawesome": "0.1.4",
-    "@groceristar/groceristar-fetch": "2.2.0",
+    "@groceristar/groceristar-fetch": "2.2.4",
     "@groceristar/meal-form-component": "1.0.5",
     "bootstrap": "4.3.1",
     "lodash": "4.17.15",
