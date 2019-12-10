@@ -18,13 +18,16 @@
     "react-dom": "16.12.0",
     "react-helmet": "5.2.1",
     "react-scripts": "3.3.0",
-    "reactstrap": "8.2.0"
+    "reactstrap": "8.2.0",
+    "snyk": "^1.258.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {
     "enzyme": "3.10.0",
@@ -35,5 +38,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "snyk": true
 }
