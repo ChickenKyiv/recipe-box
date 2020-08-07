@@ -11,7 +11,7 @@
     "@fortawesome/react-fontawesome": "0.1.8",
     "@groceristar/groceristar-fetch": "2.2.7",
     "@groceristar/meal-form-component": "1.0.5",
-    "bootstrap": "4.3.1",
+    "bootstrap": "4.5.2",
     "lodash": "4.17.15",
     "raven-js": "3.27.2",
     "react": "16.13.1",
