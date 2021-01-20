@@ -18,7 +18,7 @@
     "react-dom": "16.13.1",
     "react-helmet": "5.2.1",
     "react-scripts": "3.4.0",
-    "reactstrap": "8.2.0"
+    "reactstrap": "8.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
