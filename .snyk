@@ -1,0 +1,106 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > @babel/core > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > eslint > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > eslint-plugin-flowtype > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > html-webpack-plugin > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > @groceristar/sd-wrapper > @groceristar/static-data-generator > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > @snyk/dep-graph > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > inquirer > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > snyk-config > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > snyk-mvn-plugin > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > snyk-nodejs-lockfile-parser > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > snyk-nuget-plugin > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > eslint > inquirer > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > react-dev-utils > inquirer > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > @snyk/dep-graph > graphlib > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > webpack-dev-server > portfinder > async > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/meal-form-component > @groceristar/groceristar-fetch > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/meal-form-component > antd > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/meal-form-component > availity-reactstrap-validation > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > webpack-manifest-plugin > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > babel-eslint > @babel/traverse > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/meal-form-component > antd > rc-form > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/meal-form-component > antd > rc-steps > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/meal-form-component > antd > rc-table > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/meal-form-component > antd > rc-tabs > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > eslint > table > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > @groceristar/sd-wrapper > babel-eslint > @babel/traverse > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/meal-form-component > antd > rc-editor-mention > rc-editor-core > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/groceristar-fetch > @groceristar/sd-wrapper > babel-eslint > @babel/traverse > @babel/generator > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > babel-jest > @types/babel__core > @types/babel__traverse > @babel/types > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > jest-environment-jsdom-fourteen > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > postcss-preset-env > postcss-custom-selectors > postcss-selector-parser > babel-eslint > @babel/traverse > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - '@groceristar/meal-form-component > @groceristar/select-component > react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > postcss-preset-env > postcss-custom-selectors > postcss-selector-parser > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
+    - react-scripts > postcss-preset-env > postcss-custom-selectors > postcss-selector-parser > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2021-10-22T23:08:48.887Z'
