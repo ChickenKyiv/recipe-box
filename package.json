@@ -6,9 +6,9 @@
     "node": ">9.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "1.2.27",
-    "@fortawesome/free-solid-svg-icons": "5.12.1",
-    "@fortawesome/react-fontawesome": "0.1.8",
+    "@fortawesome/fontawesome-svg-core": "1.2.36",
+    "@fortawesome/free-solid-svg-icons": "5.15.4",
+    "@fortawesome/react-fontawesome": "0.2.0",
     "@groceristar/groceristar-fetch": "2.2.7",
     "@groceristar/meal-form-component": "1.0.5",
     "bootstrap": "4.3.1",
