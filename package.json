@@ -12,19 +12,22 @@
     "@groceristar/groceristar-fetch": "2.2.7",
     "@groceristar/meal-form-component": "1.0.5",
     "bootstrap": "4.3.1",
-    "lodash": "4.17.15",
+    "lodash": "4.17.21",
     "raven-js": "3.27.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-helmet": "5.2.1",
-    "react-scripts": "3.4.0",
-    "reactstrap": "8.2.0"
+    "react-scripts": "5.0.0",
+    "reactstrap": "8.2.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "enzyme": "3.11.0",
@@ -35,5 +38,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "snyk": true
 }
